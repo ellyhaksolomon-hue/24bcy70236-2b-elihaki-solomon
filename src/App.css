@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.container {
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* 2x2 MATRIX */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.container {
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* 2x2 MATRIX */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.electronics {
+  background: #2563eb;
+}
+
+.clothing {
+  background: #60a5fa;
+}
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.electronics {
+  background: #2563eb;
+}
+
+.clothing {
+  background: #60a5fa;
+}
+
